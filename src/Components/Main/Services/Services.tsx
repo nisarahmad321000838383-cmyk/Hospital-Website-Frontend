@@ -1,4 +1,3 @@
-import Button from '@/Components/UI/Button';
 import Service from './Service';
 import { useState } from 'react';
 import { SelectedService } from '@/Components/Shared/Types';
@@ -65,9 +64,6 @@ const Services = () => {
               <ListItem key={index} text={text} />
             ))}
           </ul>
-          <div className="lg:ml-5 mt-5">
-            <Button>{t.services.buttonText}</Button>
-          </div>
         </div>
       </div>
       <Banner1 />

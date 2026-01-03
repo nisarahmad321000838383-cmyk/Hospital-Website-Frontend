@@ -124,7 +124,6 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
         ],
       },
     ],
-    buttonText: 'Book Your Appointment',
     bannerHeading: 'We Are Always Here For Your Journey To Motherhood',
     bannerTexts: [
       'Easy appointment booking system',
@@ -257,7 +256,6 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
         ],
       },
     ],
-    buttonText: 'خپل وخت ونیسئ',
     bannerHeading: 'موږ تل ستاسو د مورتوب سفر لپاره دلته یو',
     bannerTexts: [
       'اسانه د وخت نیولو سیسټم',
@@ -390,7 +388,6 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
         ],
       },
     ],
-    buttonText: 'نوبت خود را رزرو کنید',
     bannerHeading: 'ما همیشه برای سفر مادری شما اینجا هستیم',
     bannerTexts: [
       'سیستم رزرو آسان نوبت',

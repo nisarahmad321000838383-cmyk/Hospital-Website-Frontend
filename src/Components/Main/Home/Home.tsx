@@ -1,5 +1,4 @@
 import hero from '@/assets/Images/hero.png';
-import Button from '@/Components/UI/Button';
 import DescNums from './DescNums';
 import SectionWrapper from '../SectionWrapper';
 import { useLanguage } from '@/contexts/LanguageContext';
@@ -17,7 +16,6 @@ const Home = () => {
           <p className="text-lg md:text-base lg:text-xl my-10">
             {t.home.hero.description}
           </p>
-          <Button>{t.home.hero.buttonText}</Button>
         </div>
         <div className="max-w-xs md:max-w-none">
           <img src={hero} alt="Maternity care" />

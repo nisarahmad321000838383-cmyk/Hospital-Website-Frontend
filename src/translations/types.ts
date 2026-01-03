@@ -5,7 +5,6 @@ export interface HomeTranslations {
   hero: {
     title: string;
     description: string;
-    buttonText: string;
   };
   stats: {
     specialists: string;
@@ -33,7 +32,6 @@ export interface ServicesTranslations {
     heading: string;
     texts: string[];
   }[];
-  buttonText: string;
   bannerHeading: string;
   bannerTexts: string[];
 }

@@ -5,7 +5,6 @@ export const homeTranslations: Record<'en' | 'ps' | 'fa', HomeTranslations> = {
     hero: {
       title: 'Caring For Mothers & Babies With Love',
       description: 'Experience exceptional maternity care in a warm, supportive environment. From pregnancy through delivery and beyond, we\'re here for every step of your journey to motherhood.',
-      buttonText: 'Book Your Appointment',
     },
     stats: {
       specialists: 'Maternity Specialists',
@@ -19,7 +18,6 @@ export const homeTranslations: Record<'en' | 'ps' | 'fa', HomeTranslations> = {
     hero: {
       title: 'د مور او ماشوم پاملرنه په مینه سره',
       description: 'د امیندوارۍ ځانګړې پاملرنه په ګرمه او ملاتړ چاپیریال کې تجربه کړئ. د امیندوارۍ څخه تر زیږون او بیا وروسته، موږ د مورتوب ستاسو د سفر په هره مرحله کې دلته یو.',
-      buttonText: 'خپل وخت ونیسئ',
     },
     stats: {
       specialists: 'د زیږون متخصصین',
@@ -33,7 +31,6 @@ export const homeTranslations: Record<'en' | 'ps' | 'fa', HomeTranslations> = {
     hero: {
       title: 'مراقبت از مادران و نوزادان با عشق',
       description: 'مراقبت استثنایی بارداری را در یک محیط گرم و حمایتی تجربه کنید. از بارداری تا زایمان و فراتر از آن، ما برای هر مرحله از سفر مادری شما اینجا هستیم.',
-      buttonText: 'نوبت خود را رزرو کنید',
     },
     stats: {
       specialists: 'متخصصین زایمان',
