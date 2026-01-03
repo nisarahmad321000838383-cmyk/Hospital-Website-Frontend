@@ -1,6 +1,16 @@
-import { descNums } from '@/Components/Shared/Consts';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const DescNums = () => {
+  const { t } = useLanguage();
+  
+  const descNums = [
+    { num: '50+', text: t.home.stats.specialists },
+    { num: '15k+', text: t.home.stats.deliveries },
+    { num: '24/7', text: t.home.stats.care },
+    { num: '30+', text: t.home.stats.suites },
+    { num: '100%', text: t.home.stats.safety },
+  ];
+  
   return (
     <div className="flex px-10 xs:px-16 sm:px-5 md:px-0 gap-5 flex-wrap items-center md:flex-nowrap text-center justify-center md:justify-around mt-10">
       {descNums.map((descNum, index) => (

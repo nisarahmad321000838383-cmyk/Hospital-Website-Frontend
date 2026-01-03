@@ -10,6 +10,83 @@
   font-family: 'Varela Round', sans-serif;
 }
 
+/* RTL Support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right !important;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left !important;
+}
+
+/* RTL Flexbox adjustments */
+[dir="rtl"] .flex-row-reverse {
+  flex-direction: row;
+}
+
+[dir="rtl"] .flex-row {
+  flex-direction: row-reverse;
+}
+
+/* RTL Margin/Padding adjustments */
+[dir="rtl"] .ml-5 {
+  margin-right: 1.25rem;
+  margin-left: 0;
+}
+
+[dir="rtl"] .mr-1 {
+  margin-left: 0.25rem;
+  margin-right: 0;
+}
+
+[dir="rtl"] .md\:ml-5 {
+  margin-right: 1.25rem;
+  margin-left: 0;
+}
+
+[dir="rtl"] .lg\:ml-5 {
+  margin-right: 1.25rem;
+  margin-left: 0;
+}
+
+/* RTL Border adjustments */
+[dir="rtl"] .border-l {
+  border-right-width: 1px;
+  border-left-width: 0;
+}
+
+[dir="rtl"] .border-r {
+  border-left-width: 1px;
+  border-right-width: 0;
+}
+
+/* RTL Rounded corners */
+[dir="rtl"] .rounded-tl-\[100px\] {
+  border-top-right-radius: 100px;
+  border-top-left-radius: 0;
+}
+
+[dir="rtl"] .rounded-br-\[100px\] {
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 0;
+}
+
+[dir="rtl"] .lg\:rounded-tl-\[130px\] {
+  border-top-right-radius: 130px;
+  border-top-left-radius: 0;
+}
+
+[dir="rtl"] .lg\:rounded-br-\[120px\] {
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 0;
+}
+
+/* Scrollbar styles */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -27,4 +104,26 @@
 ::-webkit-scrollbar-track {
   background-color: #dbeafe; /* Light blue color for the track */
   border-radius: 4px;
+}
+
+/* RTL Text alignment for center-aligned elements */
+[dir="rtl"] .text-center {
+  text-align: center;
+}
+
+/* Ensure list items align properly in RTL */
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+/* RTL specific font support for Pashto and Dari */
+[dir="rtl"] {
+  font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+}
+
+/* Maintain English font for LTR */
+[dir="ltr"] {
+  font-family: 'Varela Round', sans-serif;
 }

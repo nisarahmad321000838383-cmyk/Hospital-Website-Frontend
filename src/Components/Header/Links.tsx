@@ -1,6 +1,6 @@
 import { SelectedPage } from '@/Components/Shared/Types';
 import Link from './Link';
-import { links } from '@/Components/Shared/Consts';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 type Props = {
   selectedPage: SelectedPage;
@@ -8,12 +8,22 @@ type Props = {
 };
 
 const Links = ({ selectedPage, setSelectedPage }: Props) => {
+  const { t } = useLanguage();
+  
+  const links = [
+    { label: t.navigation.links.home, page: SelectedPage.Home },
+    { label: t.navigation.links.doctors, page: SelectedPage.Doctors },
+    { label: t.navigation.links.services, page: SelectedPage.Services },
+    { label: t.navigation.links.reviews, page: SelectedPage.Reviews },
+  ];
+  
   return (
     <>
       {links.map((link) => (
         <Link
-          key={link}
-          page={link}
+          key={link.page}
+          page={link.label}
+          pageId={link.page}
           selectedPage={selectedPage}
           setSelectedPage={setSelectedPage}
         />

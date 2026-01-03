@@ -1,5 +1,6 @@
 import Logo from '@/assets/Images/Logo.png';
 import NavBar from './NavBar';
+import LanguageSwitcher from './LanguageSwitcher';
 import { useState, useEffect } from 'react';
 import { SelectedPage } from '@/Components/Shared/Types';
 
@@ -29,11 +30,14 @@ const Header = () => {
       } transition fixed top-0 z-30 w-full p-5 md:px-16`}
     >
       <img className="w-10 sm:w-20" src={Logo} alt="Maternity Hospital Logo" />
-      <NavBar
-        flexBetween={flexBetween}
-        selectedPage={selectedPage}
-        setSelectedPage={setSelectedPage}
-      />
+      <div className="flex items-center gap-5">
+        <NavBar
+          flexBetween={flexBetween}
+          selectedPage={selectedPage}
+          setSelectedPage={setSelectedPage}
+        />
+        <LanguageSwitcher />
+      </div>
     </div>
   );
 };
