@@ -27,6 +27,7 @@ export interface DoctorsTranslations {
 }
 
 export interface ServicesTranslations {
+  heading: string;
   services: {
     title: string;
     heading: string;

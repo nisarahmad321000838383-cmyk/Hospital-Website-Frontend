@@ -2,6 +2,7 @@ import { ServicesTranslations } from './types';
 
 export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslations> = {
   en: {
+    heading: 'Services',
     services: [
       {
         title: 'Prenatal Care',
@@ -134,6 +135,7 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
     ],
   },
   ps: {
+    heading: 'خدمتونه',
     services: [
       {
         title: 'د زیږون دمخه پاملرنه',
@@ -266,6 +268,7 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
     ],
   },
   fa: {
+    heading: 'خدمات',
     services: [
       {
         title: 'مراقبت قبل از زایمان',

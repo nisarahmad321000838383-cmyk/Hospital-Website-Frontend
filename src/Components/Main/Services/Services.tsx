@@ -44,7 +44,7 @@ const Services = () => {
   
   return (
     <SectionWrapper id="services">
-      <h2 className="text-4xl font-bold text-center mb-10">Services</h2>
+      <h2 className="text-4xl font-bold text-center mb-10">{t.services.heading}</h2>
       <div className=" flex flex-col justify-between lg:flex-row gap-10 lg:gap-5">
         <div className="grid grid-cols-3 gap-5">
           {servicesWithImages?.map((service, index) => (
