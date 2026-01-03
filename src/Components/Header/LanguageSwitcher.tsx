@@ -7,10 +7,10 @@ const LanguageSwitcher = () => {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  const languages: { code: Language; label: string; flag: string }[] = [
-    { code: 'en', label: 'English', flag: '🇬🇧' },
-    { code: 'ps', label: 'پښتو', flag: '🇦🇫' },
-    { code: 'fa', label: 'دری', flag: '🇦🇫' },
+  const languages: { code: Language; label: string; shortLabel: string }[] = [
+    { code: 'en', label: 'English', shortLabel: 'EN' },
+    { code: 'ps', label: 'پښتو', shortLabel: 'PS' },
+    { code: 'fa', label: 'دری', shortLabel: 'FA' },
   ];
 
   const currentLanguage = languages.find((lang) => lang.code === language);
@@ -34,18 +34,30 @@ const LanguageSwitcher = () => {
 
   return (
     <div className="relative" ref={dropdownRef}>
-      {/* Dropdown Button */}
+      {/* Dropdown Button - Modern Design */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-4 py-2 bg-white/90 hover:bg-white rounded-lg shadow-md transition-all border border-gray-200 hover:border-primary"
+        className="flex items-center gap-2 px-4 py-2.5 bg-white rounded-lg shadow-md hover:shadow-lg transition-all border border-gray-200 hover:border-blue-300"
         aria-label="Select Language"
       >
-        <span className="text-lg">{currentLanguage?.flag}</span>
-        <span className="font-medium text-gray-700 hidden sm:inline">
-          {currentLanguage?.label}
+        <svg 
+          className="w-5 h-5 text-gray-600" 
+          fill="none" 
+          stroke="currentColor" 
+          viewBox="0 0 24 24"
+        >
+          <path 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            strokeWidth={2} 
+            d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" 
+          />
+        </svg>
+        <span className="font-semibold text-gray-700 text-sm">
+          {currentLanguage?.shortLabel}
         </span>
         <svg
-          className={`w-4 h-4 text-gray-600 transition-transform ${
+          className={`w-4 h-4 text-gray-500 transition-transform ${
             isOpen ? 'rotate-180' : ''
           }`}
           fill="none"
@@ -61,24 +73,28 @@ const LanguageSwitcher = () => {
         </svg>
       </button>
 
-      {/* Dropdown Menu */}
+      {/* Dropdown Menu - Modern Design */}
       {isOpen && (
-        <div className="absolute top-full mt-2 right-0 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50 min-w-[160px]">
+        <div className="absolute top-full mt-2 right-0 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-50 min-w-[180px]">
           {languages.map((lang) => (
             <button
               key={lang.code}
               onClick={() => handleLanguageChange(lang.code)}
-              className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors ${
+              className={`w-full flex items-center justify-between px-4 py-3 text-left transition-all ${
                 language === lang.code
-                  ? 'bg-primary text-white'
-                  : 'hover:bg-gray-100 text-gray-700'
+                  ? 'bg-blue-50 text-blue-700 border-l-4 border-blue-500'
+                  : 'hover:bg-gray-50 text-gray-700 border-l-4 border-transparent'
               }`}
             >
-              <span className="text-lg">{lang.flag}</span>
-              <span className="font-medium">{lang.label}</span>
+              <div className="flex items-center gap-3">
+                <span className="font-semibold text-xs bg-gray-100 px-2 py-1 rounded">
+                  {lang.shortLabel}
+                </span>
+                <span className="font-medium text-sm">{lang.label}</span>
+              </div>
               {language === lang.code && (
                 <svg
-                  className="w-4 h-4 ml-auto"
+                  className="w-5 h-5"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
