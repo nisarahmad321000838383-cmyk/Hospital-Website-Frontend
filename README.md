@@ -1,21 +1,37 @@
-# Hospital Landing Page
+# Maternity Hospital - Professional Care for Mothers & Babies
 
-🏥 Welcome to the Hospital Landing Page project, built with React.js, TypeScript, and Tailwind CSS. This modern and responsive landing page is designed for hospitals and healthcare institutions to showcase their services and provide essential information to visitors.
+🤱 Welcome to our Maternity Hospital website, built with React.js, TypeScript, and Tailwind CSS. This modern and responsive website is specifically designed for maternity care, showcasing specialized services for expectant mothers, newborns, and women's health.
 
 ## Features:
 
 - 🚀 Built with React.js and TypeScript for a robust and maintainable codebase.
-- 🎨 Stylish and responsive design powered by Tailwind CSS.
-- 📋 Easily customizable to add hospital-specific content and branding.
-- 🧰 Extendable architecture for additional sections like About, Services, Contact, etc.
+- 🎨 Beautiful and calming design with maternity-themed colors (soft pinks and purples).
+- 👶 Specialized maternity services including prenatal care, delivery, postnatal care, and pediatrics.
+- 🏥 Comprehensive women's health services and fertility treatments.
+- 💝 Professional and caring atmosphere reflecting our commitment to mothers and babies.
+- 📱 Fully responsive design for all devices.
+
+## Services Offered:
+
+- Prenatal Care & Monitoring
+- Normal & High-Risk Deliveries
+- Cesarean Section (C-Section)
+- Postnatal Care & Support
+- Neonatal Intensive Care (NICU)
+- Breastfeeding Support
+- Women's Health Services
+- Fertility & IVF Treatment
 
 ## Getting Started:
 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
-3. Customize the content and styling to match your hospital's branding.
-4. Deploy the landing page to your preferred hosting platform.
+3. Run development server using `npm run dev`.
+4. Build for production using `npm run build`.
 
-Explore the codebase and documentation to get started with your Hospital Landing Page project today!
+## Technology Stack:
 
-🌐 Live Demo: [Hospital Landing Page Demo](https://romaletodiani.github.io/Hospital-Website/)
+- React 18 with TypeScript
+- Tailwind CSS for styling
+- Framer Motion for animations
+- Vite for fast development and building

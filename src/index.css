@@ -19,12 +19,12 @@
 
 /* Styles for the scrollbar thumb */
 ::-webkit-scrollbar-thumb {
-  background-color: #6aa6ff; /* Color of the thumb */
+  background-color: #93c5fd; /* Blue-300 color for the thumb */
   border-radius: 4px; /* Rounded corners for the thumb */
 }
 
 /* Styles for the scrollbar track */
 ::-webkit-scrollbar-track {
-  background-color: #a7c4ff; /* Color of the track */
+  background-color: #dbeafe; /* Light blue color for the track */
   border-radius: 4px;
 }

@@ -9,7 +9,7 @@ import SectionWrapper from '../SectionWrapper';
 
 const Services = () => {
   const [SelectService, setSelectService] = useState<SelectedService>(
-    SelectedService.Cardiology
+    SelectedService.Delivery
   );
 
   const selectedServiceData = ServicesData.find(
@@ -39,7 +39,7 @@ const Services = () => {
             ))}
           </ul>
           <div className="lg:ml-5 mt-5">
-            <Button>Appointment Now</Button>
+            <Button>Book Your Appointment</Button>
           </div>
         </div>
       </div>

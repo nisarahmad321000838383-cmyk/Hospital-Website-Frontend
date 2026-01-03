@@ -6,13 +6,13 @@ export enum SelectedPage {
 }
 
 export enum SelectedService {
-  Neurology = 'neurology',
-  Cardiology = 'cardiology',
-  Orthopedics = 'orthopedics',
-  Surgery = 'surgery',
-  Dentistry = 'dentistry',
-  Radiology = 'radiology',
-  Urology = 'urology',
-  Medicine = 'medicine',
+  PrenatalCare = 'prenatalcare',
+  Delivery = 'delivery',
+  PostnatalCare = 'postnatalcare',
+  NICU = 'nicu',
+  Breastfeeding = 'breastfeeding',
+  Gynecology = 'gynecology',
+  Fertility = 'fertility',
+  Pediatrics = 'pediatrics',
   SeeMore = 'seemore',
 }

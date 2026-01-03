@@ -1,253 +1,254 @@
-import neurology from '@/assets/Images/Icons/Neurology.png';
-import cardiology from '@/assets/Images/Icons/Cardiology.png';
-import orthopedics from '@/assets/Images/Icons/Orthopoedics.png';
-import surgery from '@/assets/Images/Icons/Surgery.png';
-import dentistry from '@/assets/Images/Icons/Dentistry.png';
-import radiology from '@/assets/Images/Icons/Radiology.png';
-import urology from '@/assets/Images/Icons/Urology.png';
-import medicine from '@/assets/Images/Icons/Medicine.png';
+// Maternity Hospital Service Icons
+import prenatalCare from '@/assets/Images/Icons/Neurology.png'; // Reusing as prenatal care icon
+import delivery from '@/assets/Images/Icons/Cardiology.png'; // Reusing as delivery icon
+import postnatalCare from '@/assets/Images/Icons/Orthopoedics.png'; // Reusing as postnatal care icon
+import nicu from '@/assets/Images/Icons/Surgery.png'; // Reusing as NICU icon
+import breastfeeding from '@/assets/Images/Icons/Dentistry.png'; // Reusing as breastfeeding icon
+import gynecology from '@/assets/Images/Icons/Radiology.png'; // Reusing as gynecology icon
+import fertility from '@/assets/Images/Icons/Urology.png'; // Reusing as fertility icon
+import pediatrics from '@/assets/Images/Icons/Medicine.png'; // Reusing as pediatrics icon
 import seeMoreImage from '@/assets/Images/Icons/seeMoreImage.png';
 
-import Banner1 from '@/assets/Images/Banner1.png';
-import Banner2 from '@/assets/Images/Banner2.png';
+import Banner1 from '@/assets/Images/banner1.png';
+import Banner2 from '@/assets/Images/banner2.png';
 
 import doc1 from '@/assets/Images/Doctors/doc1.png';
 import doc2 from '@/assets/Images/Doctors/doc2.png';
 import doc3 from '@/assets/Images/Doctors/doc3.png';
 import doc4 from '@/assets/Images/Doctors/doc4.png';
 
-import user1 from '@/assets/Images/users/user1.jpg';
-import user2 from '@/assets/Images/users/user2.jpg';
-import user3 from '@/assets/Images/users/user3.jpg';
+import user1 from '@/assets/Images/Users/user1.jpg';
+import user2 from '@/assets/Images/Users/user2.jpg';
+import user3 from '@/assets/Images/Users/user3.jpg';
 
-import logo from '@/assets/Images/logo.png';
+import logo from '@/assets/Images/Logo.png';
 
 export const links = ['Home', 'Doctors', 'Services', 'Reviews'];
 
 export const descNums = [
   {
-    num: '500+',
-    text: 'Expert Doctors',
+    num: '50+',
+    text: 'Maternity Specialists',
   },
   {
-    num: '20k+',
-    text: 'Happy Patients',
+    num: '15k+',
+    text: 'Successful Deliveries',
   },
   {
     num: '24/7',
-    text: 'Emergency Service',
+    text: 'Maternity Care',
   },
   {
-    num: '100+',
-    text: 'Operation Theatres',
+    num: '30+',
+    text: 'Private Birthing Suites',
   },
   {
-    num: '850+',
-    text: 'Hospital Rooms',
+    num: '100%',
+    text: 'Mother & Baby Safety',
   },
 ];
 
 export const ServicesData = [
   {
-    img: neurology,
-    title: 'Neurology',
-    id: 'neurology',
-    heading: 'Neurology Department',
+    img: prenatalCare,
+    title: 'Prenatal Care',
+    id: 'prenatalcare',
+    heading: 'Prenatal Care & Monitoring',
     texts: [
-      'Expert neurological consultations',
-      'Comprehensive brain and nerve care',
-      'Advanced neuroimaging services',
-      'Treatment for epilepsy and seizures',
-      'Memory and cognitive assessments',
-      'Pediatric neurology expertise',
-      'Movement disorders management',
+      'Comprehensive prenatal check-ups',
+      'Ultrasound and fetal monitoring',
+      'Nutritional counseling for pregnancy',
+      'High-risk pregnancy management',
+      'Genetic screening and testing',
+      'Prenatal classes and education',
+      'Regular health assessments',
     ],
   },
   {
-    img: cardiology,
-    title: 'Cardiology',
-    id: 'cardiology',
-    heading: 'Cardiology Department',
+    img: delivery,
+    title: 'Delivery Services',
+    id: 'delivery',
+    heading: 'Safe Delivery & Labor',
     texts: [
-      'Electrocardiogram (ECG)',
-      'Echocardiogram',
-      'Color Doppler Echo',
-      'Dobutamine Stress Echo (DSE)',
-      'Transesophageal Echo (TEE)',
-      'Exercise Tolerance Test (ETT/TMT)',
-      'Halter monitor',
-      '24 Hour Ambulatory BP monitor',
-      'Tilt Test/Tilt Table Test',
+      'Natural birth support',
+      'Cesarean section (C-section) delivery',
+      'Water birth options',
+      'Epidural pain management',
+      'Private birthing suites',
+      '24/7 labor and delivery care',
+      'Emergency obstetric services',
+      'Experienced delivery team',
+      'Partner-friendly birthing rooms',
     ],
   },
   {
-    img: orthopedics,
-    title: 'Orthopedics',
-    id: 'orthopedics',
-    heading: 'Orthopedics Department',
+    img: postnatalCare,
+    title: 'Postnatal Care',
+    id: 'postnatalcare',
+    heading: 'Postnatal Care & Recovery',
     texts: [
-      'Orthopedic surgery and joint replacements',
-      'Sports injury and trauma care',
-      'Physical therapy and rehabilitation',
-      'Spine and back pain solutions',
-      'Arthritis and joint disorder treatment',
-      'Orthopedic consultations',
-      'Customized orthopedic care plans',
+      'Mother and baby health monitoring',
+      'Postpartum recovery support',
+      'Mental health and wellness checks',
+      'Wound care and healing support',
+      'Nutritional guidance for new mothers',
+      'Family planning counseling',
+      'Home visit services available',
     ],
   },
   {
-    img: surgery,
-    title: 'Surgery',
-    id: 'surgery',
-    heading: 'Surgery Department',
+    img: nicu,
+    title: 'NICU',
+    id: 'nicu',
+    heading: 'Neonatal Intensive Care Unit',
     texts: [
-      'Minimally invasive and laparoscopic surgery',
-      'Gastrointestinal surgery and endoscopy',
-      'Plastic and reconstructive surgery',
-      'Cancer and tumor resection',
-      'Post-operative care and recovery',
-      'Surgical consultations',
-      'Emergency surgical interventions',
+      'Advanced neonatal care',
+      'Premature baby specialized care',
+      'State-of-the-art NICU equipment',
+      'Round-the-clock neonatologist support',
+      'Respiratory support for newborns',
+      'Kangaroo care programs',
+      'Parent education and involvement',
     ],
   },
   {
-    img: dentistry,
-    title: 'Dentistry',
-    id: 'dentistry',
-    heading: 'Dentistry Department',
+    img: breastfeeding,
+    title: 'Breastfeeding',
+    id: 'breastfeeding',
+    heading: 'Breastfeeding Support',
     texts: [
-      'Routine dental check-ups and cleanings',
-      'Cosmetic dentistry and teeth whitening',
-      'Oral surgery and extractions',
-      'Dental implants and restorations',
-      'Pediatric and family dentistry',
-      'Gum disease treatment',
-      'Orthodontic and braces options',
+      'Lactation consultant services',
+      'Breastfeeding technique training',
+      'Pumping and storage guidance',
+      'Addressing common challenges',
+      'Private nursing rooms',
+      'Support groups for mothers',
+      'Bottle feeding guidance',
     ],
   },
   {
-    img: radiology,
-    title: 'Radiology',
-    id: 'radiology',
-    heading: 'Radiology Department',
+    img: gynecology,
+    title: 'Gynecology',
+    id: 'gynecology',
+    heading: 'Women\'s Health Services',
     texts: [
-      'Advanced diagnostic imaging services',
-      'Mammography and breast health screening',
-      'Interventional radiology procedures',
-      'Virtual colonoscopy and body scans',
-      'Radiology consultations',
-      'Fast and accurate imaging results',
-      'State-of-the-art radiology technology',
+      'Routine gynecological examinations',
+      'Pap smears and cancer screenings',
+      'Menstrual disorder treatment',
+      'Hormonal therapy and management',
+      'Minimally invasive gynecologic surgery',
+      'Menopause management',
+      'Contraception counseling',
     ],
   },
   {
-    img: urology,
-    title: 'Urology',
-    id: 'urology',
-    heading: 'Urology Department',
+    img: fertility,
+    title: 'Fertility',
+    id: 'fertility',
+    heading: 'Fertility & IVF Treatment',
     texts: [
-      'Urinary tract and kidney evaluations',
-      'Urologic surgery and stone removal',
-      "Men's and women's urological health",
-      'Prostate and bladder care',
-      'Incontinence and pelvic floor therapy',
-      'Urological consultations',
-      'Comprehensive urology solutions',
+      'Comprehensive fertility assessments',
+      'IVF and IUI treatments',
+      'Egg freezing services',
+      'Male infertility evaluation',
+      'Ovulation induction therapy',
+      'Fertility preservation',
+      'Personalized treatment plans',
     ],
   },
   {
-    img: medicine,
-    title: 'Medicine',
-    id: 'medicine',
-    heading: 'Medicine Department',
+    img: pediatrics,
+    title: 'Pediatrics',
+    id: 'pediatrics',
+    heading: 'Newborn & Pediatric Care',
     texts: [
-      'Primary care and internal medicine',
-      'Chronic disease management and prevention',
-      'Immunizations and wellness checks',
-      'Holistic and integrative medicine',
-      'Geriatric and pediatric medicine',
-      'Health education and lifestyle coaching',
-      'Individualized medical treatment plans',
+      'Well-baby checkups',
+      'Vaccination programs',
+      'Growth and development monitoring',
+      'Newborn screening tests',
+      'Childhood illness treatment',
+      'Pediatric nutrition guidance',
+      'Early intervention programs',
     ],
   },
   {
     img: seeMoreImage,
     title: 'See More',
     id: 'seemore',
-    heading: 'Explore Our Services',
+    heading: 'Additional Services',
     texts: [
-      'Explore additional healthcare options',
-      'Specialized medical services for all needs',
-      'Discover a world of medical solutions',
-      'Find the right care for you',
-      'Comprehensive healthcare offerings',
-      'More than meets the eye',
-      'Healthcare beyond expectations',
+      'Antenatal yoga and fitness classes',
+      'Parent preparation workshops',
+      'Genetic counseling services',
+      'Ultrasound and 3D/4D imaging',
+      'Support groups for new parents',
+      'Postpartum doula services',
+      'Comprehensive maternity care packages',
     ],
   },
 ];
 
 export const Banner1Data = {
-  heading: 'We Are Always Here To Ensure Best Medical Treatment',
+  heading: 'We Are Always Here For Your Journey To Motherhood',
   texts: [
-    'Easy make appointment',
-    'Top specialist doctors',
-    '24/7 service',
-    'Discount for all medical treatments',
-    'Enrolment is quick and easy',
+    'Easy appointment booking system',
+    'Expert obstetricians and midwives',
+    '24/7 maternity emergency care',
+    'Comprehensive maternity packages',
+    'Comfortable private birthing suites',
   ],
   img: Banner1,
 };
 
 export const DoctorsData = {
-  heading: 'Meet Our Specialists',
+  heading: 'Meet Our Maternity Specialists',
   doctors: [
     {
       img: doc1,
-      name: 'Dr. John Smith',
-      job: 'Cardiologist',
+      name: 'Dr. Sarah Mitchell',
+      job: 'Obstetrician & Gynecologist',
     },
     {
       img: doc2,
-      name: 'Dr. Kristin Watson',
-      job: 'Dentist',
+      name: 'Dr. Emily Johnson',
+      job: 'Maternal-Fetal Medicine',
     },
     {
       img: doc3,
-      name: 'Dr. Robert Flores',
-      job: 'Surgeon',
+      name: 'Dr. Michael Chen',
+      job: 'Neonatologist',
     },
     {
       img: doc4,
-      name: 'Dr. Katherine Allen',
-      job: 'Neurologist',
+      name: 'Dr. Amanda Rodriguez',
+      job: 'Fertility Specialist',
     },
   ],
   heading2: 'Who Are We?',
-  desc: 'A collaborative hospital service website is a digital platform that brings together healthcare professionals, patients and administrators to streamline and enganhe the delivery of healthcare services. This innovative platform allows for seamless communication and coordination among healthcare teams, enabling them to provide more efficient and personalized care to patients.',
+  desc: 'We are a specialized maternity hospital dedicated exclusively to the care of mothers and babies. Our state-of-the-art facility combines advanced medical technology with compassionate care, providing comprehensive services from pre-conception counseling through pregnancy, delivery, and postnatal care. With experienced obstetricians, midwives, neonatologists, and support staff available 24/7, we ensure the safest and most comfortable experience for every family.',
   img: Banner2,
 };
 
 export const FeedbackData = {
-  heading: 'Patient Feedback',
+  heading: 'What Our Mothers Say',
   feedbacks: [
     {
       img: user1,
-      name: 'Ralph Edwards',
-      job: 'Businessman',
-      desc: 'My experience with this hospital has been great. I highly recommend their services to anyone in need of quility healthcare. they truly prioritize patients care!',
+      name: 'Sarah Williams',
+      job: 'First-time Mother',
+      desc: 'The care I received from pregnancy through delivery was exceptional. The staff made me feel safe and supported every step of the way. I couldn\'t have asked for a better birthing experience!',
     },
     {
       img: user2,
-      name: 'Josh Smith',
-      job: 'Engineer',
-      desc: 'The healthcare professionals were top-natch. they were knowledgeable, attentive, and took the time to answer all of my questions and address my concerns',
+      name: 'Jessica Martinez',
+      job: 'Mother of Twins',
+      desc: 'Having twins was overwhelming, but the NICU team was incredible. They were knowledgeable, compassionate, and kept me informed throughout. My babies received the best possible care.',
     },
     {
       img: user3,
-      name: 'Eleanor Pena',
-      job: 'Teacher',
-      desc: "One thing that stood out to me was the efficiency of the service, i didn't have to wait long for my appointment, and the entire process was hassle-free experience",
+      name: 'Lisa Thompson',
+      job: 'Mother of Two',
+      desc: 'From prenatal classes to postnatal support, everything was perfectly organized. The lactation consultants were amazing, and the private birthing suite made all the difference. Highly recommend!',
     },
   ],
 };
@@ -257,12 +258,12 @@ export const FooterData = {
   addresses: ['4517 Washington Ave', 'Manchester, Kentucky 39495'],
   phone: '+1 (505) 555-0125',
   departments: [
-    'Cardiology',
-    'Dentistry',
-    'Neurology',
-    'Orthopedics',
-    'Surgery',
-    'More',
+    'Prenatal Care',
+    'Delivery Services',
+    'NICU',
+    'Gynecology',
+    'Fertility',
+    'More Services',
   ],
   links: links,
 };
