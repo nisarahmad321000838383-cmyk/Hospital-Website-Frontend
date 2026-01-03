@@ -34,10 +34,6 @@ const Home = () => {
               className="relative z-10 w-full h-auto object-cover"
             />
           </div>
-          
-          {/* Floating hearts animation */}
-          <div className="absolute top-1/4 -right-4 text-4xl animate-float">💕</div>
-          <div className="absolute bottom-1/3 -left-4 text-3xl animate-float-delayed">👶</div>
         </div>
       </div>
       <DescNums />
