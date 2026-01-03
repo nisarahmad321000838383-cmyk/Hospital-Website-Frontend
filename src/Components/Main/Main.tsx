@@ -1,7 +1,7 @@
 import Home from '@/Components/Main/Home/Home';
 import Services from './Services/Services';
 import Doctors from './Doctors/Doctors';
-import Reviews from './Review/Reviews';
+import ContactForm from './Contact/ContactForm';
 
 const Main = () => {
   return (
@@ -9,7 +9,7 @@ const Main = () => {
       <Home />
       <Services />
       <Doctors />
-      <Reviews />
+      <ContactForm />
     </div>
   );
 };

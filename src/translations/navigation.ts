@@ -3,7 +3,7 @@ export interface NavigationTranslations {
     home: string;
     doctors: string;
     services: string;
-    reviews: string;
+    contact: string;
   };
 }
 
@@ -13,7 +13,7 @@ export const navigationTranslations: Record<'en' | 'ps' | 'fa', NavigationTransl
       home: 'Home',
       doctors: 'Doctors',
       services: 'Services',
-      reviews: 'Reviews',
+      contact: 'Contact',
     },
   },
   ps: {
@@ -21,7 +21,7 @@ export const navigationTranslations: Record<'en' | 'ps' | 'fa', NavigationTransl
       home: 'کور',
       doctors: 'ډاکټران',
       services: 'خدمتونه',
-      reviews: 'بیاکتنې',
+      contact: 'اړیکه',
     },
   },
   fa: {
@@ -29,7 +29,7 @@ export const navigationTranslations: Record<'en' | 'ps' | 'fa', NavigationTransl
       home: 'خانه',
       doctors: 'دکتران',
       services: 'خدمات',
-      reviews: 'نظرات',
+      contact: 'تماس',
     },
   },
 };

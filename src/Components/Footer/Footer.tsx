@@ -32,7 +32,7 @@ const Footer = () => {
               <li>{t.navigation.links.home}</li>
               <li>{t.navigation.links.doctors}</li>
               <li>{t.navigation.links.services}</li>
-              <li>{t.navigation.links.reviews}</li>
+              <li>{t.navigation.links.contact}</li>
             </ul>
           </div>
         </div>

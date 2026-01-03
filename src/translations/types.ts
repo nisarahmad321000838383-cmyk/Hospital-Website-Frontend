@@ -36,13 +36,41 @@ export interface ServicesTranslations {
   bannerTexts: string[];
 }
 
-export interface ReviewsTranslations {
+export interface ContactTranslations {
   heading: string;
-  reviews: {
-    name: string;
-    job: string;
-    desc: string;
-  }[];
+  subheading: string;
+  form: {
+    name: {
+      label: string;
+      placeholder: string;
+    };
+    email: {
+      label: string;
+      placeholder: string;
+    };
+    phone: {
+      label: string;
+      placeholder: string;
+    };
+    subject: {
+      label: string;
+      placeholder: string;
+    };
+    message: {
+      label: string;
+      placeholder: string;
+    };
+    submitButton: string;
+    submitting: string;
+  };
+  info: {
+    title: string;
+    address: string;
+    phone: string;
+    email: string;
+    hours: string;
+    hoursValue: string;
+  };
 }
 
 export interface NavigationTranslations {
@@ -50,7 +78,7 @@ export interface NavigationTranslations {
     home: string;
     doctors: string;
     services: string;
-    reviews: string;
+    contact: string;
   };
 }
 
@@ -73,7 +101,7 @@ export interface Translations {
   home: HomeTranslations;
   doctors: DoctorsTranslations;
   services: ServicesTranslations;
-  reviews: ReviewsTranslations;
+  contact: ContactTranslations;
   navigation: NavigationTranslations;
   footer: FooterTranslations;
 }

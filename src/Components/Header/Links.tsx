@@ -14,7 +14,7 @@ const Links = ({ selectedPage, setSelectedPage }: Props) => {
     { label: t.navigation.links.home, page: SelectedPage.Home },
     { label: t.navigation.links.doctors, page: SelectedPage.Doctors },
     { label: t.navigation.links.services, page: SelectedPage.Services },
-    { label: t.navigation.links.reviews, page: SelectedPage.Reviews },
+    { label: t.navigation.links.contact, page: SelectedPage.Contact },
   ];
   
   return (

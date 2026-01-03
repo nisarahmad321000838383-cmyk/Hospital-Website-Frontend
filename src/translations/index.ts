@@ -2,7 +2,7 @@
 import { homeTranslations } from './home';
 import { doctorsTranslations } from './doctors';
 import { servicesTranslations } from './services';
-import { reviewsTranslations } from './reviews';
+import { contactTranslations } from './contact';
 import { navigationTranslations } from './navigation';
 import { footerTranslations } from './footer';
 import { Translations, Language } from './types';
@@ -13,7 +13,7 @@ export const translations: Record<Language, Translations> = {
     home: homeTranslations.en,
     doctors: doctorsTranslations.en,
     services: servicesTranslations.en,
-    reviews: reviewsTranslations.en,
+    contact: contactTranslations.en,
     navigation: navigationTranslations.en,
     footer: footerTranslations.en,
   },
@@ -21,7 +21,7 @@ export const translations: Record<Language, Translations> = {
     home: homeTranslations.ps,
     doctors: doctorsTranslations.ps,
     services: servicesTranslations.ps,
-    reviews: reviewsTranslations.ps,
+    contact: contactTranslations.ps,
     navigation: navigationTranslations.ps,
     footer: footerTranslations.ps,
   },
@@ -29,7 +29,7 @@ export const translations: Record<Language, Translations> = {
     home: homeTranslations.fa,
     doctors: doctorsTranslations.fa,
     services: servicesTranslations.fa,
-    reviews: reviewsTranslations.fa,
+    contact: contactTranslations.fa,
     navigation: navigationTranslations.fa,
     footer: footerTranslations.fa,
   },

@@ -25,7 +25,7 @@ export const doctorsTranslations: Record<'en' | 'ps' | 'fa', DoctorsTranslations
     aboutDescription: 'We are a specialized maternity hospital dedicated exclusively to the care of mothers and babies. Our state-of-the-art facility combines advanced medical technology with compassionate care, providing comprehensive services from pre-conception counseling through pregnancy, delivery, and postnatal care. With experienced obstetricians, midwives, neonatologists, and support staff available 24/7, we ensure the safest and most comfortable experience for every family.',
   },
   ps: {
-    heading: 'زموږ د امیندوارۍ متخصصین سره وګورئ',
+    heading: 'زموږ د زېږون متخصصینو سره وګورئ',
     doctors: [
       {
         name: 'ډاکټره سارا میچل',

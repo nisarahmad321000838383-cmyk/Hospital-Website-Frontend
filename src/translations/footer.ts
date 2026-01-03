@@ -31,8 +31,8 @@ export const footerTranslations: Record<'en' | 'ps' | 'fa', FooterTranslations> 
     },
     contact: {
       title: 'Contact Us',
-      address: ['4517 Washington Ave', 'Manchester, Kentucky 39495'],
-      phone: '+1 (505) 555-0125',
+      address: ['Kabul, Afghanistan'],
+      phone: '+93 799 76 96 26',
     },
   },
   ps: {
@@ -52,8 +52,8 @@ export const footerTranslations: Record<'en' | 'ps' | 'fa', FooterTranslations> 
     },
     contact: {
       title: 'موږ سره اړیکه ونیسئ',
-      address: ['۴۵۱۷ واشنګټن ایونیو', 'مانچسټر، کینټکي ۳۹۴۹۵'],
-      phone: '۰۱۲۵-۵۵۵-۵۰۵-۱+',
+      address: ['کابل، افغانستان'],
+      phone: '۶۹ ۹۶ ۷۶ ۷۹۹ ۹۳+',
     },
   },
   fa: {
@@ -73,8 +73,8 @@ export const footerTranslations: Record<'en' | 'ps' | 'fa', FooterTranslations> 
     },
     contact: {
       title: 'تماس با ما',
-      address: ['۴۵۱۷ واشنگتن اونیو', 'منچستر، کنتاکی ۳۹۴۹۵'],
-      phone: '۰۱۲۵-۵۵۵-۵۰۵-۱+',
+      address: ['کابل، افغانستان'],
+      phone: '۶۹ ۹۶ ۷۶ ۷۹۹ ۹۳+',
     },
   },
 };
