@@ -126,7 +126,6 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
     ],
     bannerHeading: 'We Are Always Here For Your Journey To Motherhood',
     bannerTexts: [
-      'Easy appointment booking system',
       'Expert obstetricians and midwives',
       '24/7 maternity emergency care',
       'Comprehensive maternity packages',
@@ -258,7 +257,6 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
     ],
     bannerHeading: 'موږ تل ستاسو د مورتوب سفر لپاره دلته یو',
     bannerTexts: [
-      'اسانه د وخت نیولو سیسټم',
       'د ښځو ډاکټران او ماماګان متخصصین',
       '۲۴/۷ د امیندوارۍ بیړني پاملرنه',
       'د امیندوارۍ جامع کڅوړې',
@@ -390,7 +388,6 @@ export const servicesTranslations: Record<'en' | 'ps' | 'fa', ServicesTranslatio
     ],
     bannerHeading: 'ما همیشه برای سفر مادری شما اینجا هستیم',
     bannerTexts: [
-      'سیستم رزرو آسان نوبت',
       'متخصصین زنان و قابله های متخصص',
       'مراقبت اورژانس بارداری ۲۴/۷',
       'بسته های جامع بارداری',
