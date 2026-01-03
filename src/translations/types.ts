@@ -65,12 +65,16 @@ export interface ContactTranslations {
   };
   info: {
     title: string;
+    addressLabel: string;
     address: string;
+    phoneLabel: string;
     phone: string;
+    emailLabel: string;
     email: string;
     hours: string;
     hoursValue: string;
   };
+  supportMessage: string;
 }
 
 export interface NavigationTranslations {

@@ -192,7 +192,7 @@ const ContactForm = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-2"
+              className="w-full bg-[#bfdbfe] hover:bg-[#93c5fd] text-gray-800 font-semibold py-4 rounded-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-2"
             >
               {isSubmitting ? (
                 <>
@@ -233,7 +233,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-700 mb-1">Address</p>
+                  <p className="font-semibold text-gray-700 mb-1">{t.contact.info.addressLabel}</p>
                   <p className="text-gray-600">{t.contact.info.address}</p>
                 </div>
               </div>
@@ -246,7 +246,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-700 mb-1">Phone</p>
+                  <p className="font-semibold text-gray-700 mb-1">{t.contact.info.phoneLabel}</p>
                   <p className="text-gray-600 font-mono">{t.contact.info.phone}</p>
                 </div>
               </div>
@@ -259,7 +259,7 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-700 mb-1">Email</p>
+                  <p className="font-semibold text-gray-700 mb-1">{t.contact.info.emailLabel}</p>
                   <p className="text-gray-600">{t.contact.info.email}</p>
                 </div>
               </div>
@@ -280,13 +280,10 @@ const ContactForm = () => {
           </div>
 
           {/* Support Message Box */}
-          <div className="bg-blue-600 p-6 rounded-2xl shadow-lg text-white">
-            <div className="flex items-start gap-4">
-              <div className="text-3xl">💙</div>
-              <p className="text-sm leading-relaxed">
-                We're here to support you through every step of your journey to motherhood. Don't hesitate to reach out!
-              </p>
-            </div>
+          <div className="bg-[#bfdbfe] p-6 rounded-2xl shadow-lg">
+            <p className="text-sm leading-relaxed text-gray-800">
+              {t.contact.supportMessage}
+            </p>
           </div>
         </div>
       </div>
